@@ -77,7 +77,7 @@ const Formulario = () => {
 
       const apiResponse = await axios.post(
         // "https://importadoramiranda.com/api/pedidos/lupenuevo",
-        "http://127.0.0.1:8000/api/pedidos/formulariosucursal2",
+        "https://www.importadoramiranda.com/api/pedidos/formulariosucursal2",
 
         apiFormData,
         { headers: { "Content-Type": "multipart/form-data" } }

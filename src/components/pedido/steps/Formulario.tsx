@@ -100,7 +100,7 @@ const Formulario = () => {
       apiFormData.append("id_usuario", "0");
 
       const apiResponse = await axios.post(
-        "http://127.0.0.1:8000/api/pedidos/lupenuevo",
+        "https://www.importadoramiranda.com/api/pedidos/lupenuevo",
         apiFormData,
         { headers: { "Content-Type": "multipart/form-data" } }
       );

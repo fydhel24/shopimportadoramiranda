@@ -77,7 +77,7 @@ const Index: React.FC = () => {
 
       // Enviar datos a la API 
       // const response = await axios.post('https://www.importadoramiranda.com/api/pedidos/lupenuevo', formData, {
-      const response = await axios.post('http://127.0.0.1:8000/pedidos/lupenuevo', formData, {
+      const response = await axios.post('https://www.importadoramiranda.com/pedidos/lupenuevo', formData, {
 
         headers: { 'Content-Type': 'multipart/form-data' },
       });
